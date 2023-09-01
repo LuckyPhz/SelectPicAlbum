@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.albumselect'
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.albumselect"
-        minSdk 30
-        targetSdk 30
+        minSdk 24
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
