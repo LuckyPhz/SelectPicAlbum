@@ -57,7 +57,7 @@ public class BaseActivity extends AppCompatActivity implements Bye {
             if(Build.VERSION.SDK_INT >= 33){
                 PERMISSION_TAKE_PICTURE = new String[]{"android.permission.CAMERA", Manifest.permission.READ_MEDIA_IMAGES};
                 PERMISSION_TAKE_VIDEO = new String[]{"android.permission.CAMERA", "android.permission.RECORD_AUDIO",Manifest.permission.READ_MEDIA_AUDIO};
-                PERMISSION_STORAGE = new String[]{Manifest.permission.READ_MEDIA_IMAGES,Manifest.permission.READ_MEDIA_VIDEO,Manifest.permission.READ_MEDIA_AUDIO};
+                PERMISSION_STORAGE = new String[]{Manifest.permission.READ_MEDIA_IMAGES};
             }else{
                 PERMISSION_TAKE_PICTURE = new String[]{"android.permission.CAMERA", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE"};
                 PERMISSION_TAKE_VIDEO = new String[]{"android.permission.CAMERA", "android.permission.RECORD_AUDIO", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE"};
