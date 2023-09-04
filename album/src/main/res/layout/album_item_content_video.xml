@@ -14,7 +14,8 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<com.yanzhenjie.album.widget.SquareCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.example.album.widget.SquareCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Album.Item.Card.MatchParent">
 
     <RelativeLayout style="@style/Album.MatchParent">
@@ -25,15 +26,15 @@
             android:contentDescription="@string/album_title"
             android:scaleType="centerCrop" />
 
-        <com.yanzhenjie.album.widget.TransferLayout
+        <com.example.album.widget.TransferLayout
             style="@style/Album.WrapContent.Transfer"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true">
 
-            <android.support.v7.widget.AppCompatCheckBox
+            <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/check_box"
                 style="@style/Album.CheckBox.WrapContent" />
-        </com.yanzhenjie.album.widget.TransferLayout>
+        </com.example.album.widget.TransferLayout>
 
         <TextView
             android:id="@+id/tv_duration"
@@ -65,4 +66,4 @@
             android:textSize="@dimen/album_sp_16" />
 
     </FrameLayout>
-</com.yanzhenjie.album.widget.SquareCardView>
+</com.example.album.widget.SquareCardView>
